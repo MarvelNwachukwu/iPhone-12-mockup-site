@@ -1,0 +1,208 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+body {
+  background: #000;
+}
+
+body header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1.5fr 3fr;
+      grid-template-columns: 2fr 1.5fr 3fr;
+}
+
+body header .leftHeader {
+  height: 4rem;
+  position: relative;
+}
+
+body header .leftHeader .appleLogo {
+  height: 50px;
+  width: 50px;
+  background: url(./assets/apple.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+}
+
+body header .leftHeader .leftNavLinks {
+  display: inline-block;
+  position: absolute;
+  top: 1.6rem;
+  left: 4rem;
+}
+
+body header .leftHeader .leftNavLinks a {
+  font-size: 1.5vw;
+  margin-left: 1rem;
+}
+
+body header .leftHeader .leftNavLinks a:hover {
+  border-bottom: 2px solid gold;
+}
+
+body header .middleFillerHeader {
+  height: 4rem;
+}
+
+body header .rightHeader {
+  height: 4rem;
+  position: relative;
+}
+
+body header .rightHeader .shoppingBag {
+  height: 50px;
+  width: 50px;
+  background: url(./assets/ShoppingBag.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  display: inline-block;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+body header .rightHeader .rightnavlinks {
+  display: inline-block;
+  position: absolute;
+  top: 1.6rem;
+  right: 4rem;
+}
+
+body header .rightHeader .rightnavlinks a {
+  font-size: 1.5vw;
+  margin-right: 1rem;
+}
+
+body header .rightHeader .rightnavlinks a:hover {
+  border-bottom: 2px solid gold;
+}
+
+.iphone12 {
+  height: 500px;
+  width: 800px;
+  background: url(./assets/iphone-12-pro-gold.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.topdetails {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1.5fr;
+      grid-template-columns: 2fr 1.5fr;
+  width: 40%;
+  position: absolute;
+  right: 15%;
+  height: 300px;
+  z-index: 1000;
+  background: rgba(81, 75, 75, 0.31);
+  border-radius: 30px;
+}
+
+.topdetails .contents {
+  padding-left: 1rem;
+}
+
+.topdetails .contents .iPhoneText {
+  height: 80px;
+  width: 200px;
+  background: url(./assets/iPhone12.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.topdetails .contents h3 {
+  margin-left: 1rem;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.topdetails .contents .order {
+  height: 50px;
+  width: 270px;
+  background: -webkit-gradient(linear, right top, left top, from(#826C45), color-stop(69.35%, #AD9770), to(#DBC59F));
+  background: linear-gradient(270deg, #826C45 0%, #AD9770 69.35%, #DBC59F 100%);
+  border-radius: 30px;
+  color: black;
+  text-align: center;
+  padding-top: calc(25px/2);
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 1rem 0 0 1rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+.topdetails .bgApple .appleImage {
+  height: 80%;
+  width: 80%;
+  margin: 10% 10%;
+  background: url(./assets/apple.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.sidedetails {
+  height: 500px;
+  width: 300px;
+  background-color: #343436;
+  border-radius: 30px;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  text-align: center;
+}
+
+.sidedetails h2 {
+  margin-top: 1rem;
+}
+
+.sidedetails div {
+  padding-top: 1.5rem;
+}
+
+.sidedetails div h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.sidedetails div h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+}
+/*# sourceMappingURL=main.css.map */

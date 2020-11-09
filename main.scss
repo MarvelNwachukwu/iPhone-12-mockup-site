@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    // line-height: 29px;
+}
+
+body {
+    background: #000;
+
+    header {
+        display: grid;
+        grid-template-columns: 2fr 1.5fr 3fr;
+
+        .leftHeader {
+            height: 4rem;
+            // background-color: rgb(34, 95, 95);
+            position: relative;
+
+            .appleLogo {
+                height: 50px;
+                width: 50px;
+                background: url(./assets/apple.svg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                display: inline-block;
+                position: absolute;
+                top: 1rem;
+                left: 1rem;
+                // margin: 1rem 0 0 1rem;
+                cursor: pointer;
+            }
+
+            .leftNavLinks {
+                display: inline-block;
+                position: absolute;
+                top: 1.6rem;
+                left: 4rem;
+
+                // transition: all 2s;
+                a {
+                    font-size: 1.5vw;
+                    margin-left: 1rem;
+
+                    &:hover {
+                        border-bottom: 2px solid gold;
+                    }
+                }
+            }
+        }
+
+        .middleFillerHeader {
+            height: 4rem;
+            // background-color: rgb(15, 66, 49);
+        }
+
+        .rightHeader {
+            height: 4rem;
+            // background-color: rgb(99, 72, 39);
+            position: relative;
+
+            .shoppingBag {
+                height: 50px;
+                width: 50px;
+                background: url(./assets/ShoppingBag.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: 80%;
+                display: inline-block;
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+                // margin: 1rem 1rem 0 0;
+                cursor: pointer;
+            }
+
+            .rightnavlinks {
+                display: inline-block;
+                position: absolute;
+                top: 1.6rem;
+                right: 4rem;
+
+                a {
+                    font-size: 1.5vw;
+                    margin-right: 1rem;
+
+                    &:hover {
+                        border-bottom: 2px solid gold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.iphone12 {
+    height: 500px;
+    width: 800px;
+    background: url(./assets/iphone-12-pro-gold.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.topdetails {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    width: 40%;
+    position: absolute;
+    right: 15%;
+    height: 300px;
+    z-index: 1000;
+    background: rgba(81, 75, 75, 0.31);
+    border-radius: 30px;
+
+    .contents{
+        padding-left: 1rem;
+
+        .iPhoneText{
+            height: 80px;
+            width: 200px;
+            background: url(./assets/iPhone12.svg);
+            background-size: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+
+        h3{
+            margin-left: 1rem;
+            font-family: Fira Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 29px;
+        }
+        .order{
+            height: 50px;
+            width: 270px;
+            background: linear-gradient(270deg, #826C45 0%, #AD9770 69.35%, #DBC59F 100%);
+            border-radius: 30px;
+            color: black;
+            text-align: center;
+            padding-top: calc(25px/2);
+            font-family: Fira Sans;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            margin: 1rem 0 0 1rem;
+            user-select: none;
+            cursor: pointer;
+
+            // &:hover{
+            //     transform: scale(1.05);
+            // }
+        }
+    }
+    .bgApple{
+
+        .appleImage{
+            height: 80%;
+            width: 80%;
+            // background-color: #fff;
+            margin: 10% 10%;
+            background: url(./assets/apple.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    }
+}
+
+.sidedetails{
+    height: 500px;
+    width: 300px;
+    background-color: #343436;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    text-align: center;
+    h2{
+        margin-top: 1rem;
+    }
+    div{
+        padding-top: 1.5rem;
+
+        h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 48px;
+        }
+        h3{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+        }
+    }
+}
